@@ -79,7 +79,7 @@ To create grid layouts for various states/views, see this example (utils/layout.
 - Run the Vite app ```npm run dev```
 
 
-## Notes:
+## NOTES (PLEASE READ BEFORE CREATING AN ISSUE):
 
 1. **CSS Imports**: Failing to import the required styles from `react-grid-layout` can break the grid rendering.
 2. **Manual Configuration**: In this project, grid layouts are manually configured for each view. You might want to explore automating this process to reduce redundancy, since complex layouts can be a pain to edit in ```layout.helper.ts```. For my website, I rigged a jank setup to grab the positions of the tiles from the console debugger once I had them in a layout I liked.
