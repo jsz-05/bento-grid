@@ -2,7 +2,7 @@
 
 This repository provides a flexible and draggable bento grid template, ideal for creating dynamic layouts. It’s currently used on my [portfolio site](https://jeffreyszhou.com/). Feel free to use and modify this project—just be sure to give proper credit!
 
-https://www.youtube.com/watch?v=1gcglgg6taY
+https://raw.githubusercontent.com/jsz-05/bento-grid/main/demo.mp4
 
 ## Overview
 
