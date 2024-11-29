@@ -1,0 +1,76 @@
+@import "../node_modules/react-grid-layout/css/styles.css";
+@import "../node_modules/react-resizable/css/styles.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* Ensure the entire page can scroll vertically */
+  height: 100%; /* Allow body to expand and scroll with content */
+  scrollbar-width: none;
+  background-color: lightcyan;
+}
+
+#root {
+  position: relative;
+  z-index: 2;
+  min-height: 100vh; /* Ensure the root element takes at least full viewport height */
+  overflow: visible; /* Make sure scrolling isn't restricted to just the root container */
+}
+
+html {
+  height: 100%; /* Ensure the HTML root is full-height to allow scrolling */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./public/static.png');
+  background-repeat: repeat;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 1.5%;
+}
+
+.react-grid-item.react-grid-placeholder {
+  background: rgba(211, 211, 211, 0.99) none repeat scroll 0% 0%;
+  transition-duration: 100ms;
+  z-index: 2;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  border-radius: 25px;
+  transition: all 400ms ease 0s !important;
+  will-change: transform;
+}
+
+
+.react-grid-item {
+  /* transition: transform 500ms ease 0s !important; */
+  transition: 400ms ease 0s;
+  /* will-change: transform; */
+}
+
+.m-50 {
+  margin: 50px;
+}
+
+@-moz-document url-prefix() { /* Disable scrollbar Firefox */
+  html{
+    scrollbar-width: none;
+  }
+}
+
+::-webkit-scrollbar { width: 0px; }
+::-webkit-scrollbar-track { background-color: rgba(18, 18, 18, 0.99) }
+::-webkit-scrollbar-thumb { background-color: darkcyan }
+
+
