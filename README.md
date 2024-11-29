@@ -2,6 +2,8 @@
 
 This repository provides a flexible and draggable bento grid template, ideal for creating dynamic layouts. It’s currently used on my [portfolio site](https://jeffreyszhou.com/). Feel free to use and modify this project, just credit me.
 
+If this template saved you time, you can [support my work on Ko-fi](https://ko-fi.com/jeffreyszhou), but it's never expected.
+
 
 https://github.com/user-attachments/assets/2be9ca71-883d-4973-9bf8-4dfb601e75fc
 
