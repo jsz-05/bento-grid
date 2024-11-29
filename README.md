@@ -1,6 +1,6 @@
 # Dynamic Bento Grid Template
 
-This repository provides a flexible and draggable bento grid template, ideal for creating dynamic layouts. It’s currently used on my [portfolio site](https://jeffreyszhou.com/). Feel free to use and modify this project—just be sure to give proper credit!
+This repository provides a flexible and draggable bento grid template, ideal for creating dynamic layouts. It’s currently used on my [portfolio site](https://jeffreyszhou.com/). Feel free to use and modify this project, just credit me.
 
 
 https://github.com/user-attachments/assets/2be9ca71-883d-4973-9bf8-4dfb601e75fc
