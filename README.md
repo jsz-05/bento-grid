@@ -85,3 +85,10 @@ To create grid layouts for various states/views, see this example (utils/layout.
 2. **Manual Configuration**: In this project, grid layouts are manually configured for each view. You might want to explore automating this process to reduce redundancy, since complex layouts can be a pain to edit in ```layout.helper.ts```. For my website, I rigged a jank setup to grab the positions of the tiles from the console debugger once I had them in a layout I liked.
 3. **Performance**: Adding too many animations or using large grid layouts can impact performance. Use CSS properties like `will-change` to optimize rendering.
 
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
