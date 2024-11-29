@@ -10,22 +10,15 @@ https://github.com/user-attachments/assets/2be9ca71-883d-4973-9bf8-4dfb601e75fc
 
 The grid functionality is powered by [react-grid-layout](https://github.com/react-grid-layout/react-grid-layout), a powerful library for building responsive grids in React. This template adds smooth transitions and animations to the layout changes using CSS.
 
-### Features
-
-- **Draggable Layouts**: Easily rearrange grid items with drag-and-drop functionality.
-- **Smooth Transitions**: Enhanced animations when switching between layouts.
-- **Customizable Layouts**: Fully configurable grid layouts that adapt to your needs.
-
-
 ## How It Works
 
 The **react-grid-layout** library manages the grid’s core behavior, including item placement and resizing. By integrating React state management, the layout configuration changes dynamically based on user actions, such as clicking navigation buttons.
 
-CSS animations are applied to `.react-grid-item` elements, enabling smooth transitions during layout changes. The key to achieving this lies in leveraging CSS properties like `transform`, `transition`, and `will-change`.
+CSS animations are applied to `.react-grid-item` elements, enabling smooth transitions during layout changes. The key here is CSS properties like `transform`, `transition`, and `will-change`.
 
 ### Key CSS Styles
 
-Below are some critical CSS styles used to enhance the appearance and functionality of the grid, found in ```index.css```
+Below are some critical CSS styles used to create the smooth appearance and functionality of the grid, found in ```index.css```
 
 ```css
 /* Style when dragging */
